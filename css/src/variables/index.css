@@ -2,7 +2,7 @@
   /* Colors */
 
   /* default */
-  --primary: var(--jal);
+  --primary: var(--neem);
   --secondary: var(--stone);
   --success: var(--neem);
   --alert: var(--mirch);
@@ -14,7 +14,7 @@
   --inverse: var(--night);
 
   /* dark */
-  --primary-dark: var(--jal-dark);
+  --primary-dark: var(--neem-dark);
   --secondary-dark: var(--stone-dark);
   --success-dark: var(--neem-dark);
   --alert-dark: var(--mirch-dark);
@@ -25,7 +25,7 @@
   --accent4-dark: var(--nimbu-dark);
 
   /* darker */
-  --primary-darker: var(--jal-darker);
+  --primary-darker: var(--neem-darker);
   --success-darker: var(--neem-darker);
   --alert-darker: var(--mirch-darker);
   --warning-darker: var(--haldi-darker);
@@ -35,7 +35,7 @@
   --accent4-darker: var(--nimbu-darker);
 
   /* light */
-  --primary-light: var(--jal-light);
+  --primary-light: var(--neem-light);
   --secondary-light: var(--stone-light);
   --success-light: var(--neem-light);
   --alert-light: var(--mirch-light);
@@ -47,7 +47,7 @@
   --inverse-light: var(--night-light);
 
   /* lighter */
-  --primary-lighter: var(--jal-lighter);
+  --primary-lighter: var(--neem-lighter);
   --secondary-lighter: var(--stone-lighter);
   --success-lighter: var(--neem-lighter);
   --alert-lighter: var(--mirch-lighter);
@@ -59,7 +59,7 @@
   --inverse-lighter: var(--night-lighter);
 
   /* lightest */
-  --primary-lightest: var(--jal-lightest);
+  --primary-lightest: var(--neem-lightest);
   --secondary-lightest: var(--stone-lightest);
   --success-lightest: var(--neem-lightest);
   --alert-lightest: var(--mirch-lightest);
@@ -81,7 +81,7 @@
   --accent4-ultra-light: #f2f9e7;
 
   /* Avatar specific color for the time being */
-  --primary-300: #c9e1f5;
+  --primary-300: #caeacd;
   --success-300: #caeacd;
   --alert-300: #fad1cd;
   --warning-300: #ffebad;

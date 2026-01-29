@@ -5,7 +5,7 @@ export const primary = create({
   base: 'light',
 
   colorPrimary: '#0000001a',
-  colorSecondary: 'deepskyblue',
+  colorSecondary: '#2ea843',
 
   // UI
   appBg: 'white',
