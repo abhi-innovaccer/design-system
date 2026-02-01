@@ -1,5 +1,7 @@
 import * as React from 'react';
 import classNames from 'classnames';
+import SaraIconDefault from '../AIIconButton/icons/SaraIconDefault';
+import SaraIconDisabled from '../AIIconButton/icons/SaraIconDisabled';
 import styles from '@css/ai-components/chip.module.css';
 
 export interface AIChipProps extends React.ComponentProps<'button'> {
@@ -11,6 +13,10 @@ export interface AIChipProps extends React.ComponentProps<'button'> {
    * Defines name of Icon to be displayed inside `Chip`
    */
   icon: string;
+  /**
+   * Specifies if the `Chip` should have a sparkle icon
+   */
+  withSparkle?: boolean;
   /**
    * Disables the `Chip`
    */
@@ -26,7 +32,7 @@ export interface AIChipProps extends React.ComponentProps<'button'> {
 }
 
 export const AIChip = (props: AIChipProps) => {
-  const { label, icon, disabled, name, className, ...rest } = props;
+  const { label, icon, disabled, name, className, withSparkle, ...rest } = props;
 
   const ChipClassNames = classNames(
     {
@@ -48,8 +54,18 @@ export const AIChip = (props: AIChipProps) => {
     [styles['AIChip-text--disabled']]: disabled,
   });
 
+  const SparkleClassNames = classNames({
+    [styles['AIChip-sparkle']]: true,
+  });
+
   return (
     <button type="button" data-test="DesignSystem-AI-Chip" className={ChipClassNames} disabled={disabled} {...rest}>
+      {withSparkle &&
+        (disabled ? (
+          <SaraIconDisabled className={SparkleClassNames} />
+        ) : (
+          <SaraIconDefault className={SparkleClassNames} />
+        ))}
       <i data-test="DesignSystem-AI-Chip-Icon" className={IconClassNames} aria-hidden="true">
         {icon}
       </i>
@@ -59,6 +75,10 @@ export const AIChip = (props: AIChipProps) => {
       </span>
     </button>
   );
+};
+
+AIChip.defaultProps = {
+  withSparkle: true,
 };
 
 export default AIChip;
