@@ -9,6 +9,7 @@ export const tokenColors = [
     { token: '--primary-ultra-light', value: '#EEF6FC' },
     { token: '--primary-shadow', value: 'rgba(0, 112, 221, 0.16)' },
   ],
+
   [
     { token: '--alert', value: '#D93737' },
     { token: '--alert-dark', value: '#9C2828' },
@@ -92,6 +93,7 @@ export const tokenColors = [
     { token: '--accent4-ultra-light', value: '#F2F9E7' },
     { token: '--accent4-shadow', value: 'rgba(130, 201, 30, 0.16)' },
   ],
+  [{ token: '--focus-primary', value: 'var(--primary)' }],
   [{ token: '--white', value: '#FFFFFF', setBgColor: true }],
 ];
 

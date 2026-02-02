@@ -111,6 +111,9 @@
   --text-white: var(--white);
   --text-success: var(--success);
 
+  /* Focus */
+  --focus-primary: var(--primary);
+
   /* spacing - DEPRECATED */
   --spacing-xs: 1px;
   --spacing-s: 2px;

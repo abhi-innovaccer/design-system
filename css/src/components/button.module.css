@@ -110,6 +110,7 @@
 .Button--tiny .Button-icon--left {
   margin-right: var(--spacing-10);
 }
+
 .Button--tiny .Button-icon--right {
   margin-left: var(--spacing-10);
 }
@@ -128,7 +129,9 @@
 }
 
 .Button--basic:focus {
-  box-shadow: var(--shadow-spread) var(--secondary-shadow);
+  outline: var(--spacing-05) solid var(--focus-primary);
+  outline-offset: var(--spacing-05);
+  box-shadow: none;
 }
 
 .Button--basic:disabled {
@@ -149,7 +152,9 @@
 }
 
 .Button--primary:focus {
-  box-shadow: var(--shadow-spread) var(--primary-shadow);
+  outline: var(--spacing-05) solid var(--focus-primary);
+  outline-offset: var(--spacing-05);
+  box-shadow: none;
 }
 
 .Button--primary:disabled {
@@ -169,7 +174,9 @@
 }
 
 .Button--success:focus {
-  box-shadow: var(--shadow-spread) var(--primary-shadow);
+  outline: var(--spacing-05) solid var(--focus-primary);
+  outline-offset: var(--spacing-05);
+  box-shadow: none;
 }
 
 .Button--success:disabled {
@@ -189,7 +196,9 @@
 }
 
 .Button--alert:focus {
-  box-shadow: var(--shadow-spread) var(--alert-shadow);
+  outline: var(--spacing-05) solid var(--focus-primary);
+  outline-offset: var(--spacing-05);
+  box-shadow: none;
 }
 
 .Button--alert:disabled {
@@ -206,7 +215,9 @@
 }
 
 .Button--transparent:focus {
-  box-shadow: var(--shadow-spread) var(--secondary-shadow);
+  outline: var(--spacing-05) solid var(--focus-primary);
+  outline-offset: var(--spacing-05);
+  box-shadow: none;
 }
 
 .Button--transparent:active {
@@ -244,7 +255,9 @@
 
 .Button--selected:focus {
   background: var(--primary-lightest);
-  box-shadow: var(--shadow-spread) var(--primary-shadow);
+  outline: var(--spacing-05) solid var(--focus-primary);
+  outline-offset: var(--spacing-05);
+  box-shadow: none;
 }
 
 .Button--selected:focus:active {
@@ -285,8 +298,9 @@
 }
 
 .Button-outlined--basic:focus {
-  border: var(--border-width-2-5) solid var(--primary);
-  box-shadow: var(--shadow-spread) var(--primary-shadow);
+  outline: var(--spacing-05) solid var(--focus-primary);
+  outline-offset: var(--spacing-05);
+  box-shadow: none;
 }
 
 .Button-outlined--basic:disabled {
@@ -314,8 +328,9 @@
 
 .Button-outlined--selected:focus {
   color: var(--primary-dark);
-  border: var(--border-width-2-5) solid var(--primary);
-  box-shadow: var(--shadow-spread) var(--primary-shadow);
+  outline: var(--spacing-05) solid var(--focus-primary);
+  outline-offset: var(--spacing-05);
+  box-shadow: none;
 }
 
 .Button-outlined--selected:disabled {
@@ -344,8 +359,9 @@
 }
 
 .Button-outlined--primary:focus {
-  border: var(--border-width-2-5) solid var(--primary);
-  box-shadow: var(--shadow-spread) var(--primary-shadow);
+  outline: var(--spacing-05) solid var(--focus-primary);
+  outline-offset: var(--spacing-05);
+  box-shadow: none;
 }
 
 .Button-outlined--primary:disabled {
@@ -374,8 +390,9 @@
 }
 
 .Button-outlined--alert:focus {
-  border: var(--border-width-2-5) solid var(--alert);
-  box-shadow: var(--shadow-spread) var(--alert-shadow);
+  outline: var(--spacing-05) solid var(--focus-primary);
+  outline-offset: var(--spacing-05);
+  box-shadow: none;
 }
 
 .Button-outlined--alert:disabled {
