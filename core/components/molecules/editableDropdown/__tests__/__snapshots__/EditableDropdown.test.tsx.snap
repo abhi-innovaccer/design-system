@@ -17,6 +17,8 @@ exports[`EditableDropdown component
     >
       <div
         data-test="DesignSystem-EditableWrapper"
+        role="button"
+        tabindex="0"
       >
         <div
           class="Dropdown d-none"
