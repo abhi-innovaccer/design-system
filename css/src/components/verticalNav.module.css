@@ -75,12 +75,16 @@
 }
 
 .MenuItem:focus {
-  box-shadow: var(--shadow-spread) var(--secondary-shadow);
-  outline: none;
+  outline: var(--border-width-05) solid var(--primary-focus);
+  outline-offset: var(--spacing-05);
+}
+
+.MenuItem--expanded:focus {
+  clip-path: inset(-6px -6px -6px 0);
 }
 
 .MenuItem--disabled:focus {
-  box-shadow: none;
+  outline: none;
 }
 
 .MenuItem--active {
@@ -101,8 +105,8 @@
 }
 
 .MenuItem--active:focus {
-  box-shadow: var(--shadow-spread) var(--primary-shadow);
-  outline: none;
+  outline: var(--border-width-05) solid var(--primary-focus);
+  outline-offset: var(--spacing-05);
 }
 
 .MenuItem--rounded {
