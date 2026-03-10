@@ -83,6 +83,10 @@
   clip-path: inset(-6px -6px -6px 0);
 }
 
+.MenuItem--expanded.MenuItem--rounded:focus {
+  clip-path: inset(-6px);
+}
+
 .MenuItem--disabled:focus {
   outline: none;
 }
