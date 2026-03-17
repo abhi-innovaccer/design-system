@@ -605,3 +605,13 @@
     )
     1 100%;
 }
+
+@media (max-width: 320px) {
+  .Grid-wrapper {
+    overflow-x: auto;
+  }
+  .Grid-head,
+  .Grid-body {
+    min-width: max-content;
+  }
+}

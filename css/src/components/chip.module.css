@@ -54,7 +54,7 @@
 }
 
 .Chip--action:focus-visible {
-  outline: var(--border-width-05) solid var(--primary-focus);
+  outline: var(--border-width-05) solid var(--primary); /* Higher contrast focus indicator */
   outline-offset: var(--spacing-05);
 }
 
@@ -82,7 +82,7 @@
 }
 
 .Chip--selection:focus-visible {
-  outline: var(--border-width-05) solid var(--primary-focus);
+  outline: var(--border-width-05) solid var(--primary); /* Higher contrast focus indicator */
   outline-offset: var(--spacing-05);
 }
 
@@ -109,7 +109,7 @@
 }
 
 .Chip-selection--selected:focus-visible {
-  outline: var(--border-width-05) solid var(--primary-focus);
+  outline: var(--border-width-05) solid var(--primary); /* Higher contrast focus indicator */
   outline-offset: var(--spacing-05);
 }
 
@@ -148,7 +148,7 @@
 
 .Chip--input:focus-visible,
 .Chip--input:focus {
-  outline: var(--border-width-05) solid var(--primary-focus);
+  outline: var(--border-width-05) solid var(--primary); /* Higher contrast focus indicator */
   outline-offset: var(--spacing-05);
 }
 

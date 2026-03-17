@@ -156,7 +156,7 @@
 
 .Select-crossButton:focus-visible,
 .Select-crossButton:focus {
-  outline: var(--spacing-05) solid var(--primary-focus);
+  outline: var(--spacing-05) solid var(--primary); /* Higher contrast focus indicator */
 }
 
 .Select-crossButton:hover {

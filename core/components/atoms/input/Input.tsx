@@ -322,7 +322,8 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>((props, forw
                 onClear(e);
               }}
               name={'close'}
-              size={sizeMapping[size]}
+              size={Math.max(16, sizeMapping[size])} // Ensure minimum size for touch target
+              aria-label="Clear input"
               className={inputRightIconClass}
             />
           </div>

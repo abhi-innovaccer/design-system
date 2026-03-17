@@ -42,13 +42,13 @@
 }
 
 .Switch-input:focus ~ .Switch-wrapper {
-  outline: var(--border-width-05) solid var(--primary-focus);
+  outline: var(--border-width-05) solid var(--primary); /* Higher contrast focus indicator */
   outline-offset: var(--spacing-05);
   background-color: var(--secondary-light);
 }
 
 .Switch-input:focus ~ .Switch-wrapper--checked {
-  outline: var(--border-width-05) solid var(--primary-focus);
+  outline: var(--border-width-05) solid var(--primary); /* Higher contrast focus indicator */
   outline-offset: var(--spacing-05);
   background-color: var(--primary);
 }

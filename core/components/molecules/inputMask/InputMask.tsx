@@ -391,6 +391,8 @@ const InputMask = React.forwardRef<HTMLInputElement, InputMaskProps>((props, for
   return (
     <div className={classes} data-test="DesignSystem-InputMask--Wrapper">
       <Input
+        aria-label={props['aria-label']}
+        aria-labelledby={props['aria-labelledby']}
         {...rest}
         value={value}
         error={error}

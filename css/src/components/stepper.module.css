@@ -23,7 +23,7 @@
 
 .Step:focus,
 .Step:focus-visible {
-  outline: var(--border-width-05) solid var(--primary-focus);
+  outline: var(--border-width-05) solid var(--primary); /* Higher contrast focus indicator */
   outline-offset: var(--spacing-05);
 }
 
@@ -43,7 +43,7 @@
 
 .Step--completed:focus,
 .Step--completed:focus-visible {
-  outline: var(--border-width-05) solid var(--primary-focus);
+  outline: var(--border-width-05) solid var(--primary); /* Higher contrast focus indicator */
   outline-offset: var(--spacing-05);
 }
 
@@ -62,7 +62,7 @@
 .Step--active:focus,
 .Step--active:focus-visible {
   background-color: var(--primary-lightest);
-  outline: var(--border-width-05) solid var(--primary-focus);
+  outline: var(--border-width-05) solid var(--primary); /* Higher contrast focus indicator */
   outline-offset: var(--spacing-05);
 }
 

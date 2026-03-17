@@ -104,8 +104,11 @@ const DropdownButton = React.forwardRef<HTMLButtonElement, DropdownButtonProps>(
       className={buttonClass}
       disabled={disabled}
       tabIndex={0}
+      aria-haspopup={menu ? 'menu' : 'listbox'}
+      aria-expanded={open}
       data-test="DesignSystem-DropdownTrigger"
       {...rest}
+      aria-label={rest['aria-label'] || (!menu ? (inlineLabel ? `${inlineLabel} ${value}` : value) : 'Menu')}
     >
       {!menu && (
         <div className={dropdownButtonStyles['DropdownButton-wrapper']}>

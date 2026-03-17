@@ -48,7 +48,7 @@
 
 .Input:focus-within {
   background: var(--white);
-  outline: var(--border-width-05) solid var(--primary-focus);
+  outline: var(--border-width-05) solid var(--primary); /* Higher contrast focus indicator */
   outline-offset: var(--spacing-05);
 }
 
@@ -153,11 +153,11 @@
 }
 
 .Input-iconWrapper--right:focus-visible .Input-icon--right {
-  outline: var(--spacing-05) solid var(--primary-focus);
+  outline: var(--spacing-05) solid var(--primary); /* Higher contrast focus indicator */
 }
 
 .Input-icon--right:focus-visible {
-  outline: var(--spacing-05) solid var(--primary-focus);
+  outline: var(--spacing-05) solid var(--primary); /* Higher contrast focus indicator */
   border-radius: var(--border-radius-full);
 }
 

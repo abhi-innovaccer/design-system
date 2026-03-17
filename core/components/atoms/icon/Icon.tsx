@@ -49,6 +49,14 @@ export type IconType = 'filled' | 'outlined' | 'outline' | 'rounded' | 'round' |
 
 export interface IconProps extends BaseProps {
   /**
+   * Accessible label for the icon
+   */
+  'aria-label'?: string;
+  /**
+   * Role of the icon
+   */
+  role?: string;
+  /**
    * Material icon name
    */
   name?: string;

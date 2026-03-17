@@ -37,6 +37,6 @@
 }
 
 .Breadcrumbs-Button:focus {
-  outline: var(--border-width-05) solid var(--primary-focus);
+  outline: var(--border-width-05) solid var(--primary); /* Higher contrast focus indicator */
   outline-offset: var(--spacing-05);
 }
